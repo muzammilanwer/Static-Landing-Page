@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+    color: #fff;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2vw 10vw;
+}
+nav h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+#nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.nav-bottom{
+    background-color: red;
+    height: 0%;
+    width: 80%;
+    position: absolute;
+    bottom: 0%;
+    border-bottom: 1px solid #dadada;
+}
+
+nav:hover #nav-bottom{
+    height: 100%;
+    bottom: -100%;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#page1 h1{
+    font-size: 8vw;
+}
+
+#page1 p{
+    text-align: center;
+    font-weight: 400;
+}
+#page1-4rounded{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page1-4rounded h4{
+    text-transform: lowercase;
+    border: 1px solid #727171;
+    border-radius: 20px;
+    font-weight: 400;
+    padding: 7px;
+    margin: 5px;
+}
+
+#page1-4rounded h4 :nth-last-child(2){
+    border: none;
+}
+
+
+#page1 h1 svg{
+    height: 6vw;
+    width: 6vw;
+    background-color:#0DA34E;
+    border-radius: 50%;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+}
+
+button{
+    padding: 10px 8px;
+    background-color: #0DA34E;
+    font-weight: 700;
+    border: 1px solid #727171;
+    border-radius: 5px;
+}
